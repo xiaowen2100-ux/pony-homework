@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF69B4"/>
+      <stop offset="100%" stop-color="#9B59B6"/>
+    </linearGradient>
+    <linearGradient id="mane" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FF69B4"/>
+      <stop offset="100%" stop-color="#5DADE2"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  <!-- 小马身体 -->
+  <ellipse cx="256" cy="300" rx="100" ry="75" fill="#F8E6F0"/>
+  <!-- 小马头 -->
+  <ellipse cx="200" cy="210" rx="70" ry="65" fill="#F8E6F0"/>
+  <!-- 耳朵 -->
+  <polygon points="170,160 180,120 200,155" fill="#F8E6F0"/>
+  <polygon points="175,155 182,130 195,150" fill="#FFB6D9"/>
+  <!-- 独角 -->
+  <polygon points="165,145 155,95 180,140" fill="url(#mane)"/>
+  <!-- 鬃毛 -->
+  <path d="M220,155 Q250,100 230,170 Q270,110 250,180 Q290,120 265,190" fill="url(#mane)" stroke="none" stroke-width="0"/>
+  <!-- 眼睛 -->
+  <circle cx="195" cy="205" r="14" fill="#4A3B5C"/>
+  <circle cx="200" cy="200" r="5" fill="#fff"/>
+  <!-- 嘴 -->
+  <path d="M175,235 Q185,245 195,235" fill="none" stroke="#9B59B6" stroke-width="3" stroke-linecap="round"/>
+  <!-- 腿 -->
+  <rect x="200" y="340" width="22" height="55" rx="10" fill="#F8E6F0"/>
+  <rect x="240" y="340" width="22" height="55" rx="10" fill="#F8E6F0"/>
+  <rect x="280" y="340" width="22" height="55" rx="10" fill="#F8E6F0"/>
+  <!-- 尾巴 -->
+  <path d="M350,280 Q390,250 380,310 Q400,290 395,340" fill="url(#mane)" stroke="none" stroke-width="0"/>
+  <!-- 爱心 -->
+  <path d="M370,130 C370,115 355,105 345,120 C335,105 320,115 320,130 C320,150 345,165 345,165 C345,165 370,150 370,130 Z" fill="#FF1744"/>
+  <!-- 星星装饰 -->
+  <polygon points="100,100 108,118 127,118 112,130 118,148 100,137 82,148 88,130 73,118 92,118" fill="#FFD700" opacity="0.8"/>
+  <polygon points="420,90 424,100 435,100 426,107 430,118 420,111 410,118 414,107 405,100 416,100" fill="#5DADE2" opacity="0.7"/>
+  <polygon points="80,380 84,390 95,390 86,397 90,408 80,401 70,408 74,397 65,390 76,390" fill="#FFD700" opacity="0.6"/>
+</svg>
