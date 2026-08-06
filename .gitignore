@@ -1,3 +1,6 @@
 .workbuddy/
 *.zip
 node_modules/
+gen_pinyin_dict.py
+generate_data.py
+content_data.json
